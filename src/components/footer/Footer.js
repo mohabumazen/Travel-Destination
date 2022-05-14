@@ -6,14 +6,10 @@ function Footer(props) {
     return(
 
         <>
-
-        
-        <a href="#" class="fa fa-facebook"></a>
-        <a href="#" class="fa fa-twitter"></a>
-        <a href="#" class="fa fa-linkedin"></a>
-
+        <a href="https://www.facebook.com/mohammad.abumazen.54" className="fab fa-facebook">facebook </a>
+        <a href="https://twitter.com/MohAbumazen" className="fab fa-twitter">twitter </a>
+        <a href="https://www.linkedin.com/in/mohammad-abumazen/" className="fab fa-linkedin">linkedin</a>
         <h3>By Mohammad Abu Mazen</h3>
-
         </>
 
     )

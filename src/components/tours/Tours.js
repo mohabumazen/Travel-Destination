@@ -2,7 +2,7 @@ function Tours(props){
     return(
         <>
             <img src={props.img} alt={props.alt}></img>
-            <p>{props.title}</p>
+            <h2>{props.title}</h2>
         </>
     )
 
