@@ -1,17 +1,20 @@
 
-// import classes from "/home/moh/travel/src/components/header/Header.css";
-import logoImage from "/home/moh/travel/src/assets/logo2.jpg";
+import classes from "/home/moh/travel/src/components/header/Header.css";
+import logoImage from "/home/moh/travel/src/assets/logo3.png";
+import Navbar from "../Navbar/Navbar";
 
-function Header(props){
+
+function Header(){
     return(
-        <>
-        <img src={logoImage} alt="logo" />
-        <h1>Tavel destinations of the most visited cities around the world</h1>
-        
-        </>
+        <header>
+            <div className={classes.headerData}>
+                <img src={logoImage} alt="logo" className={classes.img}/>
+                <h1 className={classes.header}> Travel Destinations</h1>
+            </div>
+            <Navbar />
+        </header>
 
-
-    )
+    );
 };
 
 export default Header;

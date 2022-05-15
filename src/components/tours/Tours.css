@@ -1,0 +1,36 @@
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5rem 0;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .card {
+    width: 20rem;
+    height: 20rem;
+    background-color: #f2f4f8;
+    border-radius: 5%;
+    box-shadow: 2px 2px 2px 2px #888888;
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 10000;
+  }
+  
+  .card h1 {
+    text-align: center;
+    margin-top: 5%;
+    margin-right: 4%;
+  }
+  
+  .card img {
+    width: 20rem;
+    height: 14rem;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+  }
