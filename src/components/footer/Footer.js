@@ -1,5 +1,5 @@
 
-// import '/home/moh/travel/src/components/footer/Footer.css';
+// import classes from '/home/moh/travel/src/components/footer/Footer.css';
 
 function Footer(props) {
     

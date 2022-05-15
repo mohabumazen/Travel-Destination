@@ -2,6 +2,7 @@ import Header from "../header/Header";
 import Footer from "../footer/Footer";
 import Tours from "../tours/Tours";
 const travelData = require('/home/moh/travel/src/data/db.json');
+// import { Routes, Route } from "react-router-dom";
 
 function Home(props){
     return(
