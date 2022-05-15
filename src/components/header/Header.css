@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;
+    background-color: #177687;
+    box-shadow: 5px 2px 2px 2px #888888;
+  }
+  
+  .headerData {
+    display: flex;
+    margin-top: 1.7%;
+    margin-left: 2rem;
+  }
+  
+  .img {
+    width: 5rem;
+    height: 7.5vh;
+  }
+  
+  h1 {
+    font-weight: 600;
+    margin-left: 1rem;
+  }
+  
+  nav {
+    margin-top: 1.7%;
+  }
+  
+  a {
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    margin-right: 5rem;
+  }
